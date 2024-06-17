@@ -1,6 +1,8 @@
 package med.vol.api.controller;
 
 import jakarta.validation.Valid;
+import med.vol.api.domain.consulta.DadosAgendamentoConsulta;
+import med.vol.api.domain.consulta.DetalhamentoConsulta;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
